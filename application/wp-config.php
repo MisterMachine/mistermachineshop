@@ -20,6 +20,7 @@ if ( file_exists( dirname( __FILE__ ) . '/env.php') ) {
 	die('Please add your local configuration settings.');
 }
 
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -58,14 +59,17 @@ $table_prefix  = 'wpms_';
  */
 define('WPLANG', '');
 
-/**
- * For developers: WordPress debugging mode.
- *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
- */
-define('WP_DEBUG', false);
+define( 'CONFIG_PATH', dirname(__FILE__) ); // cache it for multiple use
+
+/* URL where wordpress core files reside */
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+/* URL where people can reach your website */
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
+
+/* Full local path for content directory */
+define( 'WP_CONTENT_DIR', CONFIG_PATH . '/wp-content' );
+/* URL of content directory */
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content' );
 
 /* That's all, stop editing! Happy blogging. */
 
