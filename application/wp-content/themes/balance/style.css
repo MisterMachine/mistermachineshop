@@ -156,7 +156,6 @@ html[xmlns] .clearfix {
 	height: 1%;
 }
 
-
 /* Hyperlinks
 ------------------------------------------------------------ */
 
@@ -920,6 +919,12 @@ h5 {
 h6 {
 	font-size: 20px;
 }
+
+.entry-content p:first-child > em {
+  font-size: 22px;
+  line-height: 1.75em;
+}
+
 
 
 /* Ordered / Unordered Lists
