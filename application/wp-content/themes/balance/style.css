@@ -66,10 +66,15 @@
 ------------------------------------------------------------ */
 
 @import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic);
 
 
 /* Defaults
 ------------------------------------------------------------ */
+
+html {
+  font: normal 112.5%/1.65 serif;
+}
 
 body,
 h1,
@@ -84,10 +89,7 @@ p,
 select,
 textarea {
 	color: #222;
-	font-family: 'Lora', Georgia, "Times New Roman", Times;
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 1.625;
+	font-family: 'Merriweather', Georgia, "Times New Roman", Times;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -276,7 +278,7 @@ body {
 .header-full-width #title-area,
 .header-full-width #title,
 .header-full-width #title a {
-	width: 960px;
+	width: auto;
 }
 
 
@@ -859,7 +861,7 @@ h2 a,
 h2 a:visited,
 .page-template-page_portfolio-php h4 {
 	font-family: 'Lora', Georgia, "Times New Roman", Times;
-	font-size: 42px;
+	font-size: 48px;
 	line-height: 1.25;
 	margin: 10px 0 25px;
 }
