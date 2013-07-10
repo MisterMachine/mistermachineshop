@@ -1,7 +1,7 @@
 /*
-    Theme Name: Dryer Child Theme
+    Theme Name: MetalMan Child Theme
 	Theme URI: http://www.mistermachineshop.com
-	Description: Dryer is a child theme created for the Genesis Framework.
+	Description: MetalMan is a child theme created for the Genesis Framework.
     Author: MisterMachine
     Author URI: http://www.mistermachineshop.com
  
@@ -15,11 +15,9 @@
 */
 
 /* Import Fonts */
-
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic);
 
 /* Reset */
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -42,7 +40,6 @@ time, mark, audio, video {
 }
 
 /* Box Sizing */
-
 *,
 input[type="search"] {
 	-webkit-box-sizing: border-box;
@@ -58,7 +55,6 @@ body { -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; -o-hyphens:
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
 /* Defaults */
-
 body,
 h1,
 h2,
@@ -119,7 +115,7 @@ html[xmlns] .clearfix {
 }
 
 /* Typography */
-/* Reset Headings */
+/* Headings */
 h1,h2,h3,h4,h5,h6 { line-height: 1; margin-top: 0; font-weight: bold; text-rendering: optimizeLegibility; }
 
 h1,
